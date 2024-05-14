@@ -1,0 +1,44 @@
+
+.app {
+  background-color: rgb(34, 31, 31);
+  color: aliceblue;
+  width:100%;
+height: 80px;
+display: block;
+}
+
+.main-heading{
+color: black;
+width:100%;
+height: 100px;
+display: block;
+background-color: red;
+
+}
+
+.sidebar {
+  width: 1000px;
+  margin: 5px;
+  position: sticky;
+  top: 62px;
+  align-self: flex-start;
+  align-items: start;
+}
+
+.main-heading {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 2rem;
+}
+
+#logo_container{
+  height: 100%;
+  display: table;
+  float: left;
+}
+
+#logo_container h1{
+  color: black;
+}
+
+
+
